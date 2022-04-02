@@ -8,4 +8,5 @@ The project consist of two programs :
   -  The first is generating mazes with 3 options {x, y, [perfect / inperfect]}
   # Algo used : **A***
   -  The second is solving that maze, drawing the path with 'o'
+
 *Made with my lovely mate Plaban*
