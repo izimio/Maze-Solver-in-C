@@ -31,8 +31,16 @@ Just like we did for the generator, now go to the solver folder and launch the b
 
 And now you have a fantastic solved maze printed on the standard output.
 
-## Quick tip !
+## Quick tips !
 
 You can beautify it by piping a grep command to the solver, like so if you are using zsh or starship the path will be colored !
 
 ```./solver {file_name} | grep "o" ```
+
+You can also use a very basic python script I wrote to print the maze very colorfuly.
+
+To do so, you first need just like we did for the generator to redirect the solved maze on a file.
+```./solver {file_name} > solved_file```
+
+And then 
+``` python3 color.py solved_file```
