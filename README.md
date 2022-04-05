@@ -40,7 +40,9 @@ You can beautify it by piping a grep command to the solver, like so if you are u
 You can also use a very basic python script I wrote to print the maze very colorfuly.
 
 To do so, you first need just like we did for the generator to redirect the solved maze on a file.
+
 ```./solver {file_name} > solved_file```
 
 And then 
+
 ``` python3 color.py solved_file```
