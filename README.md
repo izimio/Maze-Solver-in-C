@@ -1,7 +1,7 @@
 # Dante
 
 ## EPITECH algorithm project 
-
+----
  
 The project consist of two programs :
   # Algo used : **Sidewinder**
@@ -12,7 +12,7 @@ The project consist of two programs :
 *Made with my lovely mate Plaban*
 
 # How to use it ?
-
+----
 first at the root of the repository make the binaries by writting ```make``` in the prompt.
 
 Then go to the generator folder and launch the program like so :
@@ -32,7 +32,7 @@ Just like we did for the generator, now go to the solver folder and launch the b
 And now you have a fantastic solved maze printed on the standard output.
 
 ## Quick tips !
-
+----
 You can beautify it by piping a grep command to the solver, like so if you are using zsh or starship the path will be colored !
 
 ```./solver {file_name} | grep "o" ```
