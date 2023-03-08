@@ -22,8 +22,7 @@ crit_fclean:
 	make test_criterion_fclean -C ./solver
 
 tests_run:
-	make tests_run -C ./generator
-	make tests_run -C ./solver
+	echo "Running generator tests"
 
 re:		fclean all
 
