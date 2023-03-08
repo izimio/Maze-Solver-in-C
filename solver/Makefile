@@ -17,7 +17,7 @@ OBJS = ${SRCS:.c=.o}
 
 NAME = solver
 
-CC = clang
+CC = gcc
 
 RM = rm -f
 

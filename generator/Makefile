@@ -5,7 +5,7 @@
 ## labmaker
 ##
 
-CC = clang
+CC = gcc
 
 src = labmaker.c \
 	src/generate_map.c \
